@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ProfilePhoto from './components/ProfilePhoto';
+import Navigation from "./components/Navigation";
+import TweetButton from "./components/TweetButton";
+import ProfileBox from './components/ProfileBox';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <Navigation/>
+     <ProfileBox />
+     <TweetButton > normal</TweetButton>
+     <TweetButton biggerButton> bigger</TweetButton>
+
+     <TweetButton full> full</TweetButton>
     </div>
   );
 }

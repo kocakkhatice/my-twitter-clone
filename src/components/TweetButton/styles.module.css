@@ -1,0 +1,15 @@
+.tweetButton{
+    background-color: var(--c-theme); 
+    color: var(--c-text-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    font-weight: bold;
+}  
+.tweetButton:hover{
+    background-color: var(--c-theme);
+    color: var(--c-text-color);
+} 
+.biggerButton{
+    height: 48px
+}
