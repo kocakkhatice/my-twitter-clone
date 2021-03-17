@@ -6,6 +6,11 @@ import Main from '../../Col-Main'
 import Sidebar from '../../Col-Sidebar'
 import Extra from '../../Col-Extra'
 import useWindowSize from '../../hooks/useWindowSize'
+import Explore from '../../pages/Explore'
+import Home from '../../pages/Home'
+import Profile from '../../pages/Profile'
+
+
 function Layout({ children }) {
   const size = useWindowSize()
   return (
