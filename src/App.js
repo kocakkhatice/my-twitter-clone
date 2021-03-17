@@ -1,21 +1,17 @@
 import React from 'react'
-import ProfilePhoto from './components/ProfilePhoto';
-import Navigation from "./components/Navigation";
-import TweetButton from "./components/TweetButton";
-import ProfileBox from './components/ProfileBox';
+import Layout from './components/Layout'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+ function App() {
+   return (
+     <Router>
+      <Layout>
+      
+      </Layout>
 
-function App() {
-  return (
-    <div >
-     <Navigation/>
-     <ProfileBox />
-     <TweetButton > normal</TweetButton>
-     <TweetButton biggerButton> bigger</TweetButton>
-
-     <TweetButton full> full</TweetButton>
-    </div>
+     </Router>
   );
 }
 
 export default App;
+/**Extra domddan siliniyor, api req azaltmak için */
